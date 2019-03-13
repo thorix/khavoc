@@ -3,7 +3,7 @@ Space shooter game that will create chaos in k8s clusters
 
 ## Pins
 | Device | Function | Wire Color | Pin | Pin Type |
-| ------------- | ------------- | ------------- | ------------- |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
 | Left Flip Switch | IN/State | [Blue] | Pin 8 | (GPIO 14/UART0 TX) |
 | Left Flip Switch | OUT/LED | [Orange] | Pin 10 | (GPIO 15/UART0 RX) |
 | Left Key | [Green] | IN/State | Pin 12 | (GPIO 18) |
