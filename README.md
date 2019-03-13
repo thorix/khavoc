@@ -12,4 +12,5 @@ Space shooter game that will create chaos in k8s clusters
 | Right Key | [Yellow] | Pin 26 | (GPIO 7/SPIO CS1) |
 | Big Button | [Blue] |  Pin 16 | (GPIO 23) |
 | Big Button | [Purple] | Pin 18 | (GPIO 24) |
+| Big Button | [Red/Orange] | Pin 1 | (3.3V PWR) |
 | Big Button | [Green] | Pin 6 | (GND) |
