@@ -8,7 +8,7 @@ docker stop khavoc
 docker rm khavoc
 docker run \
   -d \
-  --name khavok \
+  --name khavoc \
   --privileged \
   --restart unless-stopped \
   -e WEBHOOK_URL=${WEBHOOK_URL} \
