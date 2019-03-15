@@ -2,10 +2,10 @@
 
 WEBHOOK_URL=$1
 WEBHOOK_AUTH=$2
-docker build -t khavok .
+docker build -t khavoc .
 
-docker stop khavok
-docker rm khavok
+docker stop khavoc
+docker rm khavoc
 docker run \
   -d \
   --name khavok \
@@ -13,4 +13,4 @@ docker run \
   --restart unless-stopped \
   -e WEBHOOK_URL=${WEBHOOK_URL} \
   -e WEBHOOK_AUTH_TOKEN=${WEBHOOK_AUTH} \
-  khavok
+  khavoc
